@@ -16,7 +16,7 @@ const Navbar = () => {
             />
 
             <span className='font-full ml-[10px] hidden md:block text-gray-300'>
-                WebChain Dev
+                Matthijs DV
             </span>
         </a>
         <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
@@ -28,6 +28,7 @@ const Navbar = () => {
         </div>
         <div className='flex flex-row gap-5'>
             {Socials.map((social) => (
+                <a href= {social.link} target='__blank'>
                 <Image 
                 src={social.src}
                 alt={social.name}
@@ -35,6 +36,7 @@ const Navbar = () => {
                 width={24}
                 height={24}
                 />
+                </a>
             ))}
         </div>
         </div>

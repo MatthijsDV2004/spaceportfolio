@@ -81,17 +81,21 @@ export const Skill_data = [
   ];
   
   export const Socials = [
+    
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "Linkedin",
+      src: "/linkedin.svg",
+      link: "https://www.linkedin.com/in/matthijs-de-vries-2a0175258/"
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "Github",
+      src: "/github.svg",
+      link: "https://github.com/MatthijsDV2004"
     },
     {
       name: "Instagram",
-      src: "/discord.svg",
+      src: "/instagram.svg",
+      link: "https://www.instagram.com/matthijs.d/"
     },
   ];
   
