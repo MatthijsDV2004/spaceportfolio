@@ -36,7 +36,7 @@ export const HeroContent = () => {
             variants={slideInFromLeft(0.8)}
             className='text-lg text-gray-400 my-5 max-w-[600px]'
             >
-                I'm a Student at California State University Monterey Bay Studying Computer Science.
+                I&apos;m a Student at California State University Monterey Bay Studying Computer Science.
             </motion.p>
             <motion.a
             variants={slideInFromLeft(1)}
