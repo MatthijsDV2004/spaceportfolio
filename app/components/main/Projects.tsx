@@ -14,22 +14,22 @@ const Projects = () => {
         </h1>
           <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
           <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/react.png"
+          title="Blank"
+          description=""
           link="https://google.com"
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/react.png"
+          title="Blank"
+          description=""
           link="https://google.com"
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          link="https://google.com"
+          src="/github.svg"
+          title="Portfolio link"
+          description="Created with Next.js using React components written using TypeScript."
+          link="https://github.com/MatthijsDV2004/spaceportfolio"
         />
           </div>
 
