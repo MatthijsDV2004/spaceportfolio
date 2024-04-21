@@ -21,7 +21,11 @@ const SkillText = () => {
             variants={slideInFromLeft(0.5)}
             className='text-[30px] text-white font-medium text-center mb-15 mt-20'
             >
-                Different Technologies I Have Used
+                Different
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> 
+                {" "}Technologies{" "}
+                </span>
+                I Have Used
             </motion.div>
             {/* <motion.div
             variants={slideInFromRight(0.5)}
