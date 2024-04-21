@@ -38,11 +38,13 @@ export const HeroContent = () => {
             >
                 I&apos;m a Student at California State University Monterey Bay Studying Computer Science.
             </motion.p>
+            
             <motion.a
             variants={slideInFromLeft(1)}
             className='py-2 button-primary text-center text-white curser-pointer rounded-lg max-w-[200px]'
+            href="https://www.linkedin.com/in/matthijs-de-vries-2a0175258/" target='__blank'
             >
-                Learn More!
+            Learn More!
             </motion.a>
         </div>
         <motion.div
