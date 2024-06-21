@@ -14,16 +14,16 @@ const Projects = () => {
         </h1>
           <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
           <ProjectCard
-          src="/react.png"
-          title="Blank"
-          description=""
-          link="https://google.com"
+          src="/python-logo-only.svg"
+          title="ML Test Projects"
+          description="Created a few test projects to learn more about machine learning. Had help from a few tutorials and AI models."
+          link="https://github.com/MatthijsDV2004/Test-Projects"
         />
         <ProjectCard
-          src="/react.png"
-          title="Blank"
-          description=""
-          link="https://google.com"
+          src="/python-logo-only.svg"
+          title="Random Python Projects"
+          description="Growing collection of random Python projects. Some are from tutorials, others are my own creations."
+          link="https://github.com/MatthijsDV2004/Python-Projects"
         />
         <ProjectCard
           src="/github.svg"
